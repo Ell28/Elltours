@@ -10,7 +10,7 @@ html
             //- title Natours | #{tour} //- templet string
             title Natours | #{title}
 
-    body
+    body(data-alert=`${alert ? alert : ''}`)
         //- h1= tour 
         //- //- buffered since it shows up in browser
         //- h2= user.toUpperCase()
